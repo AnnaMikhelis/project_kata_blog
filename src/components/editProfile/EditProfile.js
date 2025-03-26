@@ -60,14 +60,14 @@ const EditProfile = () => {
           </label>
           <input
             {...register('userName', {
-              required: 'Введите имя пользователя',
+              required: 'Enter username',
               minLength: {
                 value: 3,
-                message: 'Имя должно содержать не менее 3 символов',
+                message: 'The name must be at least 3 characters long',
               },
               maxLength: {
                 value: 20,
-                message: 'Имя должно содержать не более 20 символов',
+                message: 'The name must be no more than 20 characters long',
               },
             })}
             placeholder="User name"
@@ -81,10 +81,10 @@ const EditProfile = () => {
           </label>
           <input
             {...register('email', {
-              required: 'Введите адрес почты',
+              required: 'Enter your email',
               pattern: {
                 value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
-                message: 'Неверный формат почты',
+                message: 'Invalid mail format',
               },
             })}
             placeholder="Email address"
@@ -97,15 +97,15 @@ const EditProfile = () => {
             New password
           </label>
           <input
-            {...register('newPassword', {
-              required: 'Введите пароль',
+            {...register('password', {
+              required: 'Enter your password',
               minLength: {
                 value: 6,
-                message: 'Пароль должен содержать не менее 6 символов',
+                message: 'Password must be at least 6 characters long',
               },
               maxLength: {
                 value: 40,
-                message: 'Пароль должен содержать не более 40 символов',
+                message: 'The password must be no more than 40 characters long.',
               },
             })}
             placeholder="New password"
@@ -122,10 +122,10 @@ const EditProfile = () => {
           </label>
           <input
             {...register('urlImage', {
-              required: 'Введите адрес изображения',
+              required: 'Enter url',
               pattern: {
                 value: /^(ftp|http|https):\/\/[^ "]+$/,
-                message: 'Введите корректный адрес',
+                message: 'Enter correct url',
               },
             })}
             placeholder="Avatar image"
