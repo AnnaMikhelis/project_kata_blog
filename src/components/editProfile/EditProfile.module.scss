@@ -1,0 +1,85 @@
+.signIn {
+    background-color: white;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 50px 30px;
+    margin-top: 60px;
+  }
+  
+  .wrap {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .password,
+  .email,
+  .userName {
+    width: 320px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+  }
+  
+  .btnLogin {
+    cursor: pointer;
+    display: block;
+    width: 320px;
+    background-color: #1890ff;
+    color: white;
+    padding: 8px 0;
+    border: none;
+    border-radius: 4px;
+    margin: 20px auto 10px auto;
+  }
+  
+  .labelEmail {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .labelPassword {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .labelPasswordAgain {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .info {
+    color: #8c8c8c;
+  }
+  
+  .info a {
+    color: #1890ff;
+    text-decoration: none;
+  }
+  
+  .agreementWrap {
+    display: flex;
+    margin-top: 30px;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 8px;
+  }
+  
+  .agreement {
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .checkbox {
+    width: 16px;
+  }
+  
+  .error {
+    font-size: 14px;
+    color: tomato;
+  }
+  
+  .inputRed {
+    border: 1px solid red;
+  }

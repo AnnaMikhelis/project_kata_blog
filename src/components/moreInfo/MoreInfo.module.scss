@@ -1,0 +1,156 @@
+.article {
+    max-width: 900px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 12px 0px rgba(45, 42, 42, 0.5);
+  }
+  
+  .articleTitle {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    color: #1890ff;
+    text-decoration: none;
+    max-width: 650px;
+    word-wrap: break-word;
+  }
+  
+  .articleTitle,
+  .description,
+  .tags,
+  .body {
+    max-width: 650px;
+    word-wrap: break-word;
+    margin-left: 10px;
+  }
+  
+  p img {
+    width: 500px;
+  }
+  
+  .articleUserImg {
+    margin-left: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+  }
+
+  .articleAuthor {
+    text-align: right;
+    margin-right: 15px;
+  }
+
+  .articleAuthor p {
+    color: rgba(16, 16, 16, 0.5);
+  }
+  
+  .articleAuthor {
+    display: flex;
+  }
+  
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-weight: 500;
+  }
+  
+  .headerWrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  .favoritesCount {
+    margin-left: 10px;
+  }
+  
+  .articleFavorite {
+    border: none;
+    background-color: inherit;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .articleTags {
+    cursor: pointer;
+    padding: 2px 10px;
+    border: 1px solid black;
+    background-color: inherit;
+    border-radius: 2px;
+    margin-right: 5px;
+  }
+  
+  .description {
+    color: rgba(56, 54, 54, 0.5);
+  }
+  
+  .btnDelete,
+  .btnEdit {
+    cursor: pointer;
+    padding: 8px 16px;
+    color: #f5222d;
+    background-color: white;
+    border: 1px solid #f5222d;
+    border-radius: 4px;
+    margin-left: 15px;
+  }
+  .btnEdit {
+    margin-right: 5px;
+    border: 1px solid rgba(82, 196, 26, 1);
+    color: rgba(82, 196, 26, 1);
+  }
+  
+  .articleChange {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actions {
+    margin-right: 20px;
+  }
+  
+  .confirmation {
+    position: absolute;
+    right: 100px;
+    top: 250px;
+    padding: 20px;
+    width: 250px;
+    height: 130px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+  }
+  
+  .confirmationTitle::before {
+    content: '';
+    display: inline-block;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/41/41943.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .confirmationButtons {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .btnNo,
+  .btnYes {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  
+  .btnYes {
+    margin: 0 10px;
+    background-color: #1890ff;
+  }
